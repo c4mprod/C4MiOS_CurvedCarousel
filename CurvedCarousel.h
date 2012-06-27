@@ -21,6 +21,7 @@
  ******************************************************************************/
  
 #import <UIKit/UIKit.h>
+#define P(x,y) CGPointMake(x, y)
 
 @protocol CurvedCarouselDataSource, CurvedCarouselDelegate;
 

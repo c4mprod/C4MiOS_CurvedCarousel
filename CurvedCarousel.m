@@ -164,12 +164,14 @@
         }
     }
     
-//    CAShapeLayer *shape = [CAShapeLayer layer];
-//    shape.path = path;
-//    shape.strokeColor = [UIColor whiteColor].CGColor;
-//    shape.fillColor = [UIColor clearColor].CGColor;
-//    shape.lineWidth = 1.0;
-//    [contentView.layer addSublayer:shape];
+    //------ TO REMOVE TO HIDE WIRE ----------
+    CAShapeLayer *shape = [CAShapeLayer layer];
+    shape.path = path;
+    shape.strokeColor = [UIColor whiteColor].CGColor;
+    shape.fillColor = [UIColor clearColor].CGColor;
+    shape.lineWidth = 1.0;
+    [contentView.layer addSublayer:shape];
+    //----------------------------------------
     
     //remove old views
     for (UIView *view in itemViews)
